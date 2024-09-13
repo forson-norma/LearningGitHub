@@ -10,14 +10,29 @@
             <h1>Re-Learning Git and GitHub</h1>
         </div>
         <div id="MainContent">
-            <u><h3>Common Commands:</h3></u>
+            <u><h2>Common Commands:</h2></u>
             <ul>
-                <li><b>Clone:</b> This is used to make a copy of your repository on Git Hub available on your local machine.</li>
-                <li><b>Add:</b> When new changes are made, deleted or new files are made, you use this command to have git track those changes.</li>
-                <li><b>Commit:</b> Saves your changes</li>
-                <li><b>Push:</b> This will upload your changes to a remote repository on GitHub</li>
-                <li><b>Pull:</b> When changes have been made to the remote repository you want to use the “pull” command to download those changes.</li>
-                <li><b>Status:</b> Shares what changes have been made but are not being tracked</li>
+                <li><b>git clone:</b> This is used to make a copy of your repository on Git Hub available on your local machine.</li>
+                <li><b>git add:</b> When new changes are made, deleted or new files are made, you use this command to have git track those changes.</li>
+                <li><b>git commit:</b> Saves your changes</li>
+                <li><b>git push:</b> This will upload your changes to a remote repository on GitHub</li>
+                <li><b>git pull:</b> When changes have been made to the remote repository you want to use the “pull” command to download those changes.</li>
+                <li><b>git status:</b> Shares what changes have been made but are not being tracked</li>
+                <li><b>git branch:</b> Lists the branches you have on the repository and then puts an asterix next to the branch you are currently on.</li>
+                <li><b>git checkout -b "branch name":</b> Creates a new branch. </li>
+                <li><b>git diff "branch name</b> It compares 2 versions of the code and shows what lines have been changed</li>
+                <li><b>git push -u origin "branch name"/ git push --set-upstream origin "branch name":</b> Allows you to push your changes to your newly<br> created branch which you can then PR into a master branch.</li>
+                <li><b>git merge "branch name":</b>Updates the branch you are on with the changes in the branch "branch name".</li>
+                <li><b>git reset "file name":</b> Unstages the file.</li>
+                <h3><b>Note:</b></h3><p><b>HEAD</b> in git is a pointer to the last commit.</p>
+                <li><b>git reset HEAD~1:</b> Git will undo last commit made. Pointer will now be on commit before most recent commit.</li>
+                <li><b>git log:</b> Lists all commits in reverse order. Lists from latest to oldest commits.</li>
+                <li><b>git reset "commit hash":</b> Unstages any changes that were made after that commit hash.</li>
+                <li><b>fork:</b> Usually for if you don't have access to a repo and you would like to be able to branch and PR into it.</li>
+
+
+
+
             </ul>
         </div>
     </body>
